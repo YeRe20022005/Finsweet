@@ -1,0 +1,194 @@
+ @media (min-width:320px) and (max-width:575.99px) {
+      /* .navbar-toggler {
+		color: white !important;
+		border: 1px solid white;
+		font-size: 16px;
+		background-color: rgb(255, 255, 255);
+	}  */
+
+	.custom-toggler-icon {
+        color: rgb(0, 0, 0) !important;
+		border: 1px solid rgb(255, 255, 255);
+		font-size: 16px;
+		background-color: rgb(255, 255, 255);
+	}
+
+	/* ========== General Reset for Small Devices ========== */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #503CEB;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav-button:hover {
+  background: #3526a5;
+}
+
+/* Banner Section */
+.banner h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner p {
+  font-size: 16px;
+  color: #555;
+}
+.banner .button-group a {
+  margin-right: 15px;
+}
+
+/* Work section */
+.work .box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* Project */
+.project .project-banner {
+  position: relative;
+}
+.project .overly {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Features */
+.feture h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.feture .card {
+  margin-bottom: 25px;
+}
+
+/* Client */
+.Client h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Blog */
+.blog .card {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer, .footer2 {
+  padding: 40px 0;
+}
+.footer ul, .footer2 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.footer ul li a, .footer2 ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+/* Tablets (up to 992px) */
+@media (max-width: 992px) {
+  .banner h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .banner p {
+    text-align: center;
+  }
+  .banner .button-group {
+    text-align: center;
+  }
+  .work .box {
+    grid-template-columns: 1fr;
+  }
+  .feture h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .Client h2 {
+    text-align: center;
+  }
+}
+
+/* Mobiles (up to 768px) */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 120px;
+  }
+  .banner h1 {
+    font-size: 26px;
+  }
+  .banner p {
+    font-size: 14px;
+  }
+  .project .row {
+    flex-direction: column;
+  }
+  .project .col-lg-8, .project .col-lg-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .Client h3.client1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .footer .row, .footer2 .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Small Mobiles (up to 576px) */
+@media (max-width: 576px) {
+  .banner h1 {
+    font-size: 22px;
+  }
+  .banner p {
+    font-size: 13px;
+  }
+  .common-btn, .icon-btn, .nav-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .faq .accordion-button span {
+    display: none; /* remove number for mobile clean UI */
+  }
+}
+
+/* 
+.navbar-toggler-icon {
+background-image: none;
+}
+.custom-toggler-icon {
+color: rgb(255, 255, 255);
+border: 1px solid white;
+font-size: 24px;
+background:rgb(255, 255, 255);
+}
+ */
+ }

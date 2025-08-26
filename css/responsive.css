@@ -9,11 +9,7 @@
 /* =============================================
         extra small device srart
 =============================================== */
-<<<<<<< Updated upstream
-@media (max-width: 575.98px) {
-=======
 @media (min-width: 320px) and (max-width: 575.99px) {
->>>>>>> Stashed changes
   /* ===============================================
       Nav part strat
   ================================================= */
@@ -122,138 +118,6 @@
   /* ===============================================
       work part strat
   ================================================= */
-<<<<<<< Updated upstream
-.responsive-work-left {
-  margin: 0px 40px;
-}
-.responsive-work-left-heading {
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 35px;
-  width: fit-content;
-}
-.responsive-work-left-paragraph {
-  width: 245px !important;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-#work {
-  padding: 86px 0px 0px;
-}
-
-.responsive-work-btn {
-  font-size: 16px;
-  line-height: 18px;
-}
-.work-btn {
-  padding-left: 17px;
-}
-.work-btn .work-btn-arrow {
-  position: absolute;
-  top: 2px;
-  right: -24px;
-  opacity: 0;
-  transition: all linear 0.2s;
-  font-size: 13px;
-}
-.responsive-work-right {
-  padding-top: 95px;
-  text-align: center;
-}
-
-.work-right-elm img {
-  width: 29%;
-}
-.work-right-elm {
-  margin-bottom: 33px;
-}
-
-/* 
-.responsive-work-left-heading {
-  font-size: 29px;
-  font-weight: 600;
-  color: darkblue;
-  font-family: "Poppins", sans-serif;
-  line-height: 18px;
-}
-#work .responsive-work-left-paragraph {
-  color: #282938;
-  width: 200px !important;
-  padding-top: 16px;
-  padding-bottom: 10px;
-  font-size: 13px;
-  line-height: 20px;
-}
-.responsive-work-btn {
-  font-size: 12px;
-  font-weight: 500;
-  color: #2405f2;
-  font-family: "Poppins", sans-serif;
-  line-height: 17px;
-  position: relative;
-  margin-left: 19px;
-}
-.responsive-work-btn .responsive-work-btn-arrow {
-  position: absolute;
-  top: 3px;
-  right: -15px !important;
-  opacity: 0;
-  transition: all linear 0.2s;
-}
-.responsive-work-btn:hover .work-btn-arrow {
-  opacity: 1;
-  right: -25px !important;
-}
-.responsive-work-left {
-  margin-left: 74px;
-}
-.responsive-work-right {
-  margin-left: 36px !important;
-  margin-top: 75px !important;
-}
-.responsive-work-right-elm img {
-  width: 13%;
-}
-.responsive-work-right-heding {
-  font-size: 33px !important;
-  padding-top: 9px !important;
-  padding-bottom: 9px !important;
-}
-.responsive-work-right-pragraph {
-  line-height: 21px !important;
-  font-size: 12px !important;
-  width: 300px !important;
-  margin-bottom: 19px;
-} */
-
-/* ===============================================
-      work part end
-  ================================================= */
-/* ===============================================
-      Project part strat
-  ================================================= */
-.responsive-project-heading {
-  font-size: 15px;
-}
-.responsive-project-btn {
-  font-size: 12px;
-  margin-left: 0px;
-}
-.responsive-project-row-one-elm {
-  justify-content: start;
-  gap: 35px;
-}
-.responsive-porject-icon {
-  top: 3.5px;
-  right: -14px;
-  opacity: 0;
-}
-.responsive-project-btn:hover .responsive-porject-icon {
-  opacity: 1;
-  right: -23px !important;
-}
-/* ===============================================
-=======
   .work-right-elm {
     text-align: center;
     width: auto;
@@ -348,7 +212,6 @@
     color: #fcd980 !important;
   }
   /* ===============================================
->>>>>>> Stashed changes
       Project part end
   ================================================= */
   #feature .feature-heading-one {
@@ -518,16 +381,8 @@
             large device start
 =============================================== */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-<<<<<<< Updated upstream
-  .responsive-work-left-heading {
-    font-size: 54px;
-    font-weight: ;
-    line-height: ;
-    width: ;
-=======
   .bannar {
     background: rgb(85, 196, 221);
->>>>>>> Stashed changes
   }
 }
 /* =============================================
@@ -537,19 +392,8 @@
         extra large device start
 =============================================== */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-<<<<<<< Updated upstream
-  .responsive-work-left-heading {
-    font-size: 54px;
-    font-weight: ;
-    line-height: ;
-    width: ;
-  }
-  .responsive-work-left p {
-    width: 405px !important;
-=======
   .bannar {
     background: rgb(158, 4, 179);
->>>>>>> Stashed changes
   }
 }
 /* =============================================
@@ -559,16 +403,8 @@
      extra extra large device start
 =============================================== */
 @media (min-width: 1400px) {
-<<<<<<< Updated upstream
-  .responsive-work-left-heading {
-    font-size: 54px;
-    font-weight: ;
-    line-height: ;
-    width: ;
-=======
   .bannar {
     background: rgb(96, 221, 85);
->>>>>>> Stashed changes
   }
 }
 /* =============================================

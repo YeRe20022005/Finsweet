@@ -6,144 +6,571 @@
    Mobile First Responsive Design
    ================================ */
 
-/* Extra Small Device (Mobile ≤575px) */
+/* =============================================
+        extra small device srart
+=============================================== */
+<<<<<<< Updated upstream
 @media (max-width: 575.98px) {
-  body {
-    padding: 0 15px;
+=======
+@media (min-width: 320px) and (max-width: 575.99px) {
+>>>>>>> Stashed changes
+  /* ===============================================
+      Nav part strat
+  ================================================= */
+  .fa-solid {
+    color: #ffffff;
+    font-size: 26px;
   }
+  .navbar-collapse {
+    background: #1c3f53;
 
+    border-radius: 10px;
+    text-align: center;
+  }
+  .navbar-collapse {
+    /* margin-top: 55px; */
+  }
+  .navbar-toggler {
+    margin-bottom: 50px;
+  }
+  .navbar-brand {
+    margin-bottom: 50px;
+  }
   .navbar-nav {
-    flex-direction: column;
-    gap: 16px;
+    gap: 22px;
+    padding: 25px 0px 0px !important;
   }
-
-  .banner h1 {
-    font-size: 28px;
-    line-height: 38px;
-    text-align: center;
+  nav .nav-btn {
+    margin-left: 0px;
+    padding: 9px 36px;
+    margin: 20px 0px 25px;
   }
-
-  .banner p {
-    width: 100%;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
+  nav .nav-link {
+    line-height: 25px;
   }
-
-  .banner img {
-    width: 100%;
-    height: auto;
+  /* nav .nav-link:hover {
+    background-color: transparent !important;
+    border-color:#ffffff !important;
+  } */
+  .common-btn:hover {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
   }
-
-  .work .box,
-  .project .box,
-  .contact .box {
-    flex-direction: column;
-    gap: 24px;
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0;
+    border-color: none;
   }
-
-  .feture h2,
-  .Client h2,
-  .blog h2,
-  .contact h2 {
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .footer .footer-box {
-    flex-direction: column;
-    width: 100%;
-    padding: 20px;
-    gap: 12px;
-    text-align: center;
-  }
-}
-
-/* Small Device (Tablet Portrait 576px–767px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .banner h1 {
+  /* ===============================================
+      Nav part end
+  ================================================= */
+  /* ===============================================
+      Bannar part strat
+  ================================================= */
+  .common-h-one-heading {
     font-size: 34px;
-    line-height: 44px;
-    text-align: center;
+    line-height: 45px;
   }
-
-  .banner p {
-    width: 90%;
+  .common-pragraph {
     font-size: 15px;
     line-height: 24px;
+  }
+  #bannar .main-pragrapg {
+    width: fit-content;
+  }
+  #bannar .bannar-main-btn {
+    padding: 7px 23px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  .responsive-bannar-btn {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .responsive-bannar-img {
+    width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .common-h-two-heading {
+    font-size: 41px;
+  }
+  #work .work-left-paragraph {
+    width: auto;
+  }
+  #bannar .bannar-button-two:hover .btn-arrow {
+    opacity: 0;
+    right: -33px;
   }
 
-  .project .box,
-  .contact .box {
-    flex-direction: column;
+  .work-btn {
+    color: #282938;
+    margin-bottom: 108px;
+  }
+  .work-btn:hover {
+    color: #282938;
   }
 
-  .footer .footer-box {
-    flex-direction: column;
-    gap: 16px;
-    text-align: center;
-  }
+  /* ===============================================
+      Bannar part end
+  ================================================= */
+  /* ===============================================
+      work part strat
+  ================================================= */
+<<<<<<< Updated upstream
+.responsive-work-left {
+  margin: 0px 40px;
+}
+.responsive-work-left-heading {
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 35px;
+  width: fit-content;
+}
+.responsive-work-left-paragraph {
+  width: 245px !important;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+#work {
+  padding: 86px 0px 0px;
 }
 
-/* Medium Device (Tablet Landscape 768px–991px) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .navbar-nav {
-    gap: 20px;
+.responsive-work-btn {
+  font-size: 16px;
+  line-height: 18px;
+}
+.work-btn {
+  padding-left: 17px;
+}
+.work-btn .work-btn-arrow {
+  position: absolute;
+  top: 2px;
+  right: -24px;
+  opacity: 0;
+  transition: all linear 0.2s;
+  font-size: 13px;
+}
+.responsive-work-right {
+  padding-top: 95px;
+  text-align: center;
+}
+
+.work-right-elm img {
+  width: 29%;
+}
+.work-right-elm {
+  margin-bottom: 33px;
+}
+
+/* 
+.responsive-work-left-heading {
+  font-size: 29px;
+  font-weight: 600;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 18px;
+}
+#work .responsive-work-left-paragraph {
+  color: #282938;
+  width: 200px !important;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.responsive-work-btn {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2405f2;
+  font-family: "Poppins", sans-serif;
+  line-height: 17px;
+  position: relative;
+  margin-left: 19px;
+}
+.responsive-work-btn .responsive-work-btn-arrow {
+  position: absolute;
+  top: 3px;
+  right: -15px !important;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+.responsive-work-btn:hover .work-btn-arrow {
+  opacity: 1;
+  right: -25px !important;
+}
+.responsive-work-left {
+  margin-left: 74px;
+}
+.responsive-work-right {
+  margin-left: 36px !important;
+  margin-top: 75px !important;
+}
+.responsive-work-right-elm img {
+  width: 13%;
+}
+.responsive-work-right-heding {
+  font-size: 33px !important;
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+}
+.responsive-work-right-pragraph {
+  line-height: 21px !important;
+  font-size: 12px !important;
+  width: 300px !important;
+  margin-bottom: 19px;
+} */
+
+/* ===============================================
+      work part end
+  ================================================= */
+/* ===============================================
+      Project part strat
+  ================================================= */
+.responsive-project-heading {
+  font-size: 15px;
+}
+.responsive-project-btn {
+  font-size: 12px;
+  margin-left: 0px;
+}
+.responsive-project-row-one-elm {
+  justify-content: start;
+  gap: 35px;
+}
+.responsive-porject-icon {
+  top: 3.5px;
+  right: -14px;
+  opacity: 0;
+}
+.responsive-project-btn:hover .responsive-porject-icon {
+  opacity: 1;
+  right: -23px !important;
+}
+/* ===============================================
+=======
+  .work-right-elm {
+    text-align: center;
+    width: auto;
+  }
+  .work-right {
+    margin: auto;
+  }
+  .responsive-work-btn {
+    color: #282938 !important;
   }
 
-  .banner h1 {
-    font-size: 42px;
-    line-height: 52px;
+  /* ===============================================
+      work part end
+  ================================================= */
+  /* ===============================================
+      Project part strat
+  ================================================= */
+  .project-heading {
+    font-size: 18px;
+    line-height: 30px;
   }
-
-  .banner p {
-    width: 80%;
+  .project-btn:hover {
+    color: #282938;
+  }
+  .overlay-heading {
+    width: auto;
+    line-height: 27px;
+    font-size: 19px !important;
+  }
+  .overlay-img {
+    width: 100%;
+  }
+  .overlay {
+    margin-bottom: 20px;
+  }
+  .overlay .overlay-display {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-text {
+    padding-top: 33px;
+    padding-left: 28px;
+  }
+  .overlay-pragraph {
+    padding: 14px 0 15px;
+    width: auto;
+    font-size: 14px;
+  }
+  .work-btn:hover {
+    color: #ffffff;
+    color: #fcd980;
+  }
+  .work-btn {
+    color: #fcd980;
+  }
+  .work-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  .web-design-one img {
+    width: 100%;
+  }
+  .web-design-overlay-one {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .web-design-one:hover .web-design-overlay-one {
+    opacity: 1;
+  }
+  .web-design-overlay-one .wed-overlay-elm {
+    padding: 105px 46px 83px;
+  }
+  .web-design-two {
+    position: relative;
+  }
+  .web-design-overlay-two {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  .web-design-two:hover .web-design-overlay-two {
+    opacity: 1;
+  }
+  .overlay-btn {
+    color: #fcd980 !important;
+  }
+  /* ===============================================
+>>>>>>> Stashed changes
+      Project part end
+  ================================================= */
+  #feature .feature-heading-one {
+    color: #282938 !important;
+    width: auto;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 9px;
+  }
+  #feature .feature-card {
+    text-align: center;
+    width: fit-content;
+  }
+  #feature .feature-img {
+    width: 15%;
+  }
+  #feature .feature-child-card-elm {
+    padding: 58px 0px 48px;
+  }
+  .feature-child-card-elm {
+  }
+  #feature .feature-card-pragraph {
+    width: 291px;
+  }
+  .feature-card {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
+    row-gap: 24px;
   }
-
-  .project .box {
-    flex-wrap: wrap;
-    gap: 24px;
+  .client-heading-one {
+    width: auto;
+    font-size: 24px;
+    line-height: 37px;
   }
-
-  .footer .footer-box {
-    flex-wrap: wrap;
-    gap: 20px;
+  #client .client-pragraph {
+    width: auto;
+    margin: 12px 0 25px;
+  }
+  #client .client-heading-two {
+    width: auto;
+    color: #282938;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .client-detais {
+  }
+  .client-detais {
+    align-items: center;
     justify-content: center;
   }
+  #client .client-detais img {
+    width: 19%;
+  }
+  #client .client-detais {
+    margin-top: 55px;
+  }
+  /* ===============================================
+      Client part end
+  ================================================= */
+
+  /* ===============================================
+      FAQ part strat
+  ================================================= */
+  .client-btn {
+    color: #282938 !important;
+    padding-top: 12px;
+  }
+  #faq .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #faq .accordion-item span {
+    padding-right: 28px;
+    color: #2405f2;
+  }
+  #faq {
+    padding: 26px 0 133px;
+  }
+  .accordion-item{
+    display: flex;
+    flex-direction: column;
+  }
+  .accordion-button {
+    display: flex;
+    justify-content: start; 
+    align-items: start;     
+                
+  }
+  #faq .accordion-item .accordion-body {
+    padding-left: 71px;
+    padding-bottom: 46px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  /* ===============================================
+      FAQ part end
+  ================================================= */
+  /* ===============================================
+      building part strat
+  ================================================= */
+}
+#building .bulding-overlay-elm .bulding-overlay {
+
+
+  right: 0%;
+  /* height: 100%;
+  width: 100%; */
+  opacity: 1;
+
+}
+#building .bulding-overlay-elm:hover .bulding-overlay {
+  opacity: 1;
+}
+#building .bulding-overlay {
+	padding: 85px 50px 20px;
+}
+.building-overlay-heading {
+	font-size: 25px;
+	line-height: 45px;
+	width: auto !important;
+	line-height: 30px;
+}
+.bulding-overlay-pragraph{
+  width: auto !important;
+  font-size: 13px;
+  line-height: 20px;
+ 
+}
+#building .bulding-overlay-elm img {
+  width: 100%;
+  height: 100%;
 }
 
-/* Large Device (Laptop 992px–1199px) */
+  /* ===============================================
+      building part end
+  ================================================= */
+
+  /* =============================================
+        extra small device end
+=============================================== */
+  /* =============================================
+         small device start
+=============================================== */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannar {
+    background: #56df;
+  }
+}
+
+/* =============================================
+         small device end
+=============================================== */
+/* =============================================
+         md device start
+=============================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bannar {
+    background: rgb(217, 221, 85);
+  }
+}
+/* =============================================
+         md device end
+=============================================== */
+/* =============================================
+            large device start
+=============================================== */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .banner h1 {
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .banner p {
-    width: 70%;
-  }
-
-  .footer .footer-box {
-    gap: 24px;
-    justify-content: space-between;
+<<<<<<< Updated upstream
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+=======
+  .bannar {
+    background: rgb(85, 196, 221);
+>>>>>>> Stashed changes
   }
 }
-
-/* Extra Large Device (Desktop 1200px–1399px) */
+/* =============================================
+            large device end
+=============================================== */
+/* =============================================
+        extra large device start
+=============================================== */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  .banner p {
-    width: 65%;
+<<<<<<< Updated upstream
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
+  .responsive-work-left p {
+    width: 405px !important;
+=======
+  .bannar {
+    background: rgb(158, 4, 179);
+>>>>>>> Stashed changes
   }
 }
-
-/* XXL Device (Big screen ≥1400px) */
+/* =============================================
+  extra large device end
+=============================================== */
+/* =============================================
+     extra extra large device start
+=============================================== */
 @media (min-width: 1400px) {
-  .banner p {
-    width: 60%;
+<<<<<<< Updated upstream
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+=======
+  .bannar {
+    background: rgb(96, 221, 85);
+>>>>>>> Stashed changes
   }
 }
+/* =============================================
+         extra extra large device start
+=============================================== */

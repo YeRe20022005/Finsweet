@@ -2,150 +2,348 @@
        
 	} */
 
+    /* =============================================
+        extra small device start
+=============================================== */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* ===============================================
+      Nav part start
+  ================================================= */
+  .fa-solid {
+    color: #ffffff;
+    font-size: 26px;
+  }
+  .navbar-collapse {
+    background: #1c3f53;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .navbar-toggler {
+    margin-bottom: 50px;
+  }
+  .navbar-brand {
+    margin-bottom: 50px;
+  }
+  .navbar-nav {
+    gap: 22px;
+    padding: 25px 0px 0px !important;
+  }
+  nav .nav-btn {
+    margin-left: 0px;
+    padding: 9px 36px;
+    margin: 20px 0px 25px;
+  }
+  nav .nav-link {
+    line-height: 25px;
+  }
+  .common-btn:hover {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
 
-/* =========================
-   Responsive CSS
-========================= */
+  /* ===============================================
+      Banner part start
+  ================================================= */
+  .common-h-one-heading {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  .common-pragraph {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #bannar .main-pragrapg {
+    width: fit-content;
+  }
+  #bannar .bannar-main-btn {
+    padding: 7px 23px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  .responsive-bannar-btn {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .responsive-bannar-img {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .common-h-two-heading {
+    font-size: 41px;
+  }
+  #work .work-left-paragraph {
+    width: auto;
+  }
 
-/* Mobile devices (max-width: 767px) */
-@media (max-width: 767px) {
-    .navbar-nav {
-        flex-direction: column;
-        gap: 16px;
-        text-align: center;
-    }
+  /* ===============================================
+      Work part start
+  ================================================= */
+  .responsive-work-left {
+    margin: 0px 40px;
+  }
+  .responsive-work-left-heading {
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 35px;
+    width: fit-content;
+  }
+  .responsive-work-left-paragraph {
+    width: 245px !important;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+  }
+  #work {
+    padding: 86px 0px 0px;
+  }
+  .responsive-work-btn {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .work-btn {
+    padding-left: 17px;
+    color: #282938;
+    margin-bottom: 108px;
+  }
+  .work-btn:hover {
+    color: #282938;
+  }
+  .work-btn .work-btn-arrow {
+    position: absolute;
+    top: 2px;
+    right: -24px;
+    opacity: 0;
+    transition: all linear 0.2s;
+    font-size: 13px;
+  }
+  .responsive-work-right {
+    padding-top: 95px;
+    text-align: center;
+  }
+  .work-right-elm img {
+    width: 29%;
+  }
+  .work-right-elm {
+    margin-bottom: 33px;
+  }
 
-    .nav-button, .common-btn {
-        padding: 12px 24px;
-        font-size: 16px;
-        margin-left: 0;
-    }
+  /* ===============================================
+      Project part start
+  ================================================= */
+  .responsive-project-heading {
+    font-size: 15px;
+  }
+  .responsive-project-btn {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .responsive-project-row-one-elm {
+    justify-content: start;
+    gap: 35px;
+  }
+  .responsive-porject-icon {
+    top: 3.5px;
+    right: -14px;
+    opacity: 0;
+  }
+  .responsive-project-btn:hover .responsive-porject-icon {
+    opacity: 1;
+    right: -23px !important;
+  }
 
-    .banner h1 {
-        font-size: 36px;
-        line-height: 44px;
-        width: 100%;
-        margin-top: 24px;
-    }
+  /* ===============================================
+      Feature part start
+  ================================================= */
+  #feature .feature-heading-one {
+    color: #282938 !important;
+    width: auto;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 9px;
+  }
+  #feature .feature-card {
+    text-align: center;
+    width: fit-content;
+  }
+  #feature .feature-img {
+    width: 15%;
+  }
+  #feature .feature-child-card-elm {
+    padding: 58px 0px 48px;
+  }
+  #feature .feature-card-pragraph {
+    width: 291px;
+  }
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 24px;
+  }
 
-    .banner p {
-        width: 100%;
-        font-size: 14px;
-        line-height: 24px;
-        padding-bottom: 32px;
-    }
+  /* ===============================================
+      Client part start
+  ================================================= */
+  .client-heading-one {
+    width: auto;
+    font-size: 24px;
+    line-height: 37px;
+  }
+  #client .client-pragraph {
+    width: auto;
+    margin: 12px 0 25px;
+  }
+  #client .client-heading-two {
+    width: auto;
+    color: #282938;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  #client .client-detais {
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  #client .client-detais img {
+    width: 19%;
+  }
 
-    .work .box .item, 
-    .project .box {
-        width: 100%;
-        flex-direction: column;
-    }
+  /* ===============================================
+      FAQ part start
+  ================================================= */
+  .client-btn {
+    color: #282938 !important;
+    padding-top: 12px;
+  }
+  #faq .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #faq .accordion-item span {
+    padding-right: 28px;
+    color: #2405f2;
+  }
+  #faq {
+    padding: 26px 0 133px;
+  }
+  .accordion-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .accordion-button {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  #faq .accordion-item .accordion-body {
+    padding-left: 71px;
+    padding-bottom: 46px;
+    font-size: 14px;
+    line-height: 30px;
+  }
 
-    .project .overly {
-        padding: 24px 16px;
-        left: 0 !important;
-        height: auto;
-    }
-
-    .feture h2 {
-        font-size: 32px;
-        width: 100%;
-    }
-
-    .Client h2 {
-        font-size: 28px;
-        width: 100%;
-    }
-
-    .faq .accordion-body {
-        padding: 0 16px;
-    }
-
-    .contact .right {
-        padding: 24px 16px;
-    }
-
-    .contact .right button {
-        padding: 14px 0;
-    }
-
-    .blog h2 {
-        font-size: 32px;
-        line-height: 44px;
-    }
-
-    .blog-text {
-        width: 100%;
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .footer .footer-box {
-        flex-direction: column;
-        width: 100%;
-        padding: 16px;
-    }
-
-    .footer ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 16px;
-    }
+  /* ===============================================
+      Building part start
+  ================================================= */
+  #building .bulding-overlay-elm .bulding-overlay {
+    right: 0%;
+    opacity: 1;
+  }
+  #building .bulding-overlay-elm:hover .bulding-overlay {
+    opacity: 1;
+  }
+  #building .bulding-overlay {
+    padding: 85px 50px 20px;
+  }
+  .building-overlay-heading {
+    font-size: 25px;
+    width: auto !important;
+    line-height: 30px;
+  }
+  .bulding-overlay-pragraph {
+    width: auto !important;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #building .bulding-overlay-elm img {
+    width: 100%;
+    height: 100%;
+  }
 }
+/* =============================================
+        extra small device end
+=============================================== */
 
-/* Tablet devices (768px–1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .navbar-nav {
-        column-gap: 20px;
-    }
 
-    .banner h1 {
-        font-size: 48px;
-        line-height: 56px;
-    }
-
-    .banner p {
-        width: 90%;
-        font-size: 15px;
-    }
-
-    .work .box .item, 
-    .project .box {
-        width: 48%;
-    }
-
-    .feture h2 {
-        font-size: 40px;
-        width: 90%;
-    }
-
-    .Client h2 {
-        font-size: 34px;
-        width: 90%;
-    }
-
-    .blog h2 {
-        font-size: 40px;
-        line-height: 52px;
-    }
-
-    .blog-text {
-        width: 90%;
-        font-size: 17px;
-        line-height: 26px;
-    }
-
-    .contact .right {
-        padding: 48px 24px;
-    }
-
-    .footer .footer-box {
-        flex-wrap: wrap;
-        gap: 16px;
-    }
+/* =============================================
+         small device start
+=============================================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannar {
+    background: #56df;
+  }
 }
+/* =============================================
+         small device end
+=============================================== */
 
-/* Large devices (1025px and up) */
-@media (min-width: 1025px) {
-    /* মূল CSS এখানে প্রযোজ্য */
+
+/* =============================================
+         md device start
+=============================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bannar {
+    background: rgb(217, 221, 85);
+  }
 }
+/* =============================================
+         md device end
+=============================================== */
+
+
+/* =============================================
+            large device start
+=============================================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .bannar {
+    background: rgb(85, 196, 221);
+  }
+}
+/* =============================================
+            large device end
+=============================================== */
+
+
+/* =============================================
+        extra large device start
+=============================================== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .bannar {
+    background: rgb(158, 4, 179);
+  }
+}
+/* =============================================
+  extra large device end
+=============================================== */
+
+
+/* =============================================
+     extra extra large device start
+=============================================== */
+@media (min-width: 1400px) {
+  .bannar {
+    background: rgb(96, 221, 85);
+  }
+}
+/* =============================================
+     extra extra large device end
+=============================================== */
